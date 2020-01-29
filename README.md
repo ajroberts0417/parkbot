@@ -10,25 +10,25 @@ Parkbot -- a CLI for parking spots
 
 3. Use the CLI
 
-##### Get help
+#### Get help
 `$ python parkbot -h`
 
-##### Query for all the parking spots in California
+#### Query for all the parking spots in California
 ```
 $ python parkbot data.json --locate CA
 
 ['Church of 8 Wheels', 'Sweetgreen', 'Sandwiches n More', 'AirGarage HQ', 'Walgreens', 'The Salon', 'Archer Salon']
 ```
 
-##### Query for all the parking spots in AZ, with hourly rates <= $5.00, but > $1.00
+#### Query for all the parking spots in AZ, with hourly rates <= $5.00, but > $1.00
 ```
 $ python parkbot data.json -l AZ -lte 500 -gt 100
 
 ['Tempe Beach Park', 'Safeway']
 ```
 
-##### Get all lots, with no query parameters
-`python parkbot data.json`
+#### Get all lots, with no query parameters
+`$ python parkbot data.json`
 
 ##### NOTE: If you're on macOS, or have python installed, this should use your native version of python.
 ##### If you find it doesn't work, [install python 3](https://www.codecademy.com/articles/install-python3)
