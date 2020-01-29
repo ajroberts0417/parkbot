@@ -1,4 +1,4 @@
-# :robot_face: parkbot
+# parkbot
 Parkbot -- a CLI for parking spots
 
 ## Installation & Usage
@@ -10,7 +10,7 @@ Parkbot -- a CLI for parking spots
 
 3. Use the CLI
 ```
-$ python parkbot.py data.json locate AZ`
+$ python parkbot.py data.json locate AZ
 
 > Church A, Church C, ...
 ```
